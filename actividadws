@@ -1,0 +1,78 @@
+ # investigar los diferentes tipos de graficos disponibles en seaborn
+
+📊 1. Gráficos de distribución
+
+Sirven para entender cómo se distribuyen los datos.
+
+Histograma (histplot)
+Muestra la frecuencia de valores.
+KDE (kdeplot)
+Estima la densidad de probabilidad suavizada.
+ECDF (ecdfplot)
+Muestra la distribución acumulativa.
+
+👉 Útiles para ver forma, sesgo, y dispersión de los datos.
+
+📈 2. Gráficos relacionales
+
+Exploran relaciones entre variables.
+
+Scatter plot (scatterplot)
+Relación entre dos variables numéricas.
+Line plot (lineplot)
+Tendencias a lo largo del tiempo o secuencias.
+
+👉 Permiten agregar dimensiones extra con color (hue), tamaño (size) o estilo (style).
+
+📦 3. Gráficos categóricos
+
+Comparan variables categóricas.
+
+Bar plot (barplot)
+Promedios por categoría.
+Box plot (boxplot)
+Distribución, cuartiles y outliers.
+Violin plot (violinplot)
+Similar al boxplot pero mostrando densidad.
+Strip plot (stripplot)
+Puntos individuales.
+Swarm plot (swarmplot)
+Puntos sin superposición.
+
+👉 Muy usados en análisis exploratorio.
+
+🔥 4. Gráficos de matriz
+
+Para relaciones múltiples o estructuras complejas.
+
+Heatmap (heatmap)
+Matriz de valores representados con colores.
+Clustermap (clustermap)
+Heatmap con agrupamiento jerárquico.
+
+👉 Ideal para correlaciones o datos tipo matriz.
+
+🔗 5. Gráficos de pares
+Pair plot (pairplot)
+Muestra relaciones entre múltiples variables numéricas en una sola figura.
+
+👉 Muy útil para exploración inicial.
+
+🎯 6. Gráficos de regresión
+Reg plot (regplot)
+Scatter plot con línea de regresión.
+LM plot (lmplot)
+Versión más avanzada con facetas.
+
+👉 Para analizar relaciones lineales.
+
+🧩 7. Gráficos multi-panel (FacetGrid)
+
+Permiten dividir visualizaciones por categorías:
+
+FacetGrid
+catplot
+relplot
+displot
+
+👉 Generan múltiples gráficos organizados automáticamente.
