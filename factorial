@@ -1,0 +1,13 @@
+Factorial
+
+Un factorial es una operación matemática que se representa con el signo !. El factorial de un número entero positivo es el producto de ese número por todos los enteros positivos menores que él hasta llegar a 1.
+
+Por ejemplo:
+
+3! = 3 × 2 × 1 = 6
+5! = 5 × 4 × 3 × 2 × 1 = 120
+7! = 7 × 6 × 5 × 4 × 3 × 2 × 1 = 5040
+Por definición:
+
+0! = 1
+Los factoriales se utilizan mucho en matemáticas, especialmente en combinatoria, probabilidad y estadística, para contar el número de formas en que se pueden ordenar o seleccionar elementos.
